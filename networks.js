@@ -18,22 +18,22 @@ exports.livenet = {
   hkeyPublicVersion: 0x02fe52f8,
   hkeyPrivateVersion: 0x02fe52cc,
   genesisBlock: {
-    hash: hexReverse('0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818'),
-    merkle_root: hexReverse('1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b'),
+    hash: hexReverse('00000ccaa671bbab8d6f72eb853466d5af0e33491fddd2861d52b394553f96f9'),
+    merkle_root: hexReverse('e456c7b894fe91492a94361376809abe1b7894ca75cbe30641b309e6d9d6b0a0'),
     height: 0,
-    nonce: 2402015,
+    nonce: 1568802,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1454124731,
+    timestamp: 1531154631,
     bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    'fuzzbawls.pw',
-    'coin-server.com',
-    's3v3nh4cks.ddns.net',
-    'fuzzbawls.pw'
+    'seed1.block-logic.com',
+    'seed2.block-logic.com',
+    'seed3.block-logic.com',
+    'seed4.block-logic.com'
   ],
-  defaultClientPort: 51472
+  defaultClientPort: 17127
 };
 
 exports.mainnet = exports.livenet;
@@ -47,19 +47,20 @@ exports.testnet = {
   hkeyPublicVersion: 0x3a8061a0,
   hkeyPrivateVersion: 0x3a805837,
   genesisBlock: {
-    hash: hexReverse('0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818'),
-    merkle_root: hexReverse('1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b'),
+    hash: hexReverse('00000ccaa671bbab8d6f72eb853466d5af0e33491fddd2861d52b394553f96f9'),
+    merkle_root: hexReverse('e456c7b894fe91492a94361376809abe1b7894ca75cbe30641b309e6d9d6b0a0'),
     height: 0,
-    nonce: 2402015,
+    nonce: 1568802,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1454124731,
+    timestamp: 1531154631,
     bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    '88.198.192.110',
-    'pivx-testnet.seed.fuzzbawls.pw',
-    'pivx-testnet.seed2.fuzzbawls.pw'
+    'testnet1.block-logic.com',
+    'testnet2.block-logic.com',
+    'testnet3.block-logic.com',
+    'testnet4.block-logic.com'
   ],
-  defaultClientPort: 51474
+  defaultClientPort: 18127
 };
